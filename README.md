@@ -58,6 +58,7 @@ Primeiro, clone o repositório para a sua máquina local usando o seguinte coman
 
 ```bash
 git clone https://github.com/dri031020/sistema-escolar.git
+git clone https://github.com/dri031020/sistema-escolar.git
 
  Passo 2: Navegar até o diretório do projeto
 
@@ -88,13 +89,6 @@ Baixe o Expo Go na Google Play Store (para Android) ou na App Store (para iOS).
 Abra o Expo Go no seu dispositivo.
 No seu computador, após executar expo start, um QR Code aparecerá na sua página do navegador.
 Escaneie o QR Code usando o Expo Go no seu dispositivo móvel.
-   
-### Explicações das seções: ❗
 
-- **Índice**: Usei links internos para facilitar a navegação, especialmente quando o arquivo README for longo.
-- **Estrutura do Projeto**: A estrutura do projeto foi apresentada para que os desenvolvedores saibam como o código está organizado.
-- **Contribuição**: Expliquei como contribuir para o projeto, incluindo as instruções básicas de como clonar, modificar e criar um Pull Request.
-- **Licença**: Eu incluí um modelo simples para indicar a licença do projeto.
-
-
+---
 
