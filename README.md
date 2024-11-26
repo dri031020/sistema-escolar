@@ -1,8 +1,8 @@
-# **Aplicativo de sistema escolar, com navegação em drawer menu.**
+# **Aplicativo de sistema escolar, com navegação em drawer menu.** 📲
 
 Este é um aplicativo educacional desenvolvido para ajudar alunos e comunidade escolar a gerenciar boletins, eventos e compromissos importantes. Ele oferece uma interface simples e intuitiva, com acesso rápido às principais funcionalidades, como boletins, calendário escolar, eventos e contatos.
 
-## Índice
+## Índice 📰
 
 - [Descrição do Projeto](#descrição-do-projeto)
 - [Funcionalidades](#funcionalidades)
@@ -20,7 +20,7 @@ O **App de Estudos** foi projetado para ajudar estudantes a se organizarem melho
 
 ---
 
-## **Funcionalidades**
+## **Funcionalidades** ✅
 
 1. **Tela de Início**  
    A tela inicial apresenta uma saudação ao usuário e fornece acesso às principais funcionalidades do aplicativo. O usuário pode navegar para o boletim, calendário, eventos ou contatos a partir desta tela.
@@ -42,7 +42,7 @@ O **App de Estudos** foi projetado para ajudar estudantes a se organizarem melho
 
 ---
 
-## **Tecnologias Usadas**
+## **Tecnologias Usadas** ⚙
 
 - **React Native**: Framework utilizado para o desenvolvimento do app.
 - **Expo**: Ferramenta para simplificar o processo de desenvolvimento em React Native.
@@ -50,25 +50,46 @@ O **App de Estudos** foi projetado para ajudar estudantes a se organizarem melho
 - **StyleSheet**: Para estilizar os componentes de forma eficiente.
 
 ---
-## Como Instalar o Projeto
+## Como Instalar e Executar o Aplicativo 🚀
 
-### Passos para instalar e rodar o projeto:
+### Passo 1: Clonar o repositório
 
-1. **Clonar o repositório**:
-   Primeiro, clone o repositório para a sua máquina local usando o seguinte comando:
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+Primeiro, clone o repositório para a sua máquina local usando o seguinte comando:
 
-## **Como Rodar o Projeto**
+```bash
+git clone https://github.com/dri031020/sistema-escolar.git
 
-### Passos para rodar o projeto:
+ Passo 2: Navegar até o diretório do projeto
 
-1. **Clonar o repositório**:
-   ```bash
-   git clone https://github.com/dri031020/sistema-escolar.git
+pós clonar o repositório, entre no diretório do projeto com o comando:
+bash
+Copiar código
+cd sistema-escolar
 
+Passo 3: Instalar as dependências
+Este projeto usa npm ou Yarn para gerenciar as dependências. Escolha um dos métodos abaixo para instalar as dependências:
+Com npm: Se você usa npm, execute o comando abaixo para instalar as dependências:
+bash
+Copiar código
+npm install
+Com Yarn: Se você usa Yarn, execute o comando abaixo:
+bash
+Copiar código
+yarn install
+
+Passo 4: Rodar o aplicativo
+Agora que as dependências estão instaladas, você pode rodar o aplicativo. Para isso, execute o seguinte comando:
+bash
+Copiar código
+expo start
+
+Passo 5: Testar o aplicativo no dispositivo
+Baixe o Expo Go na Google Play Store (para Android) ou na App Store (para iOS).
+Abra o Expo Go no seu dispositivo.
+No seu computador, após executar expo start, um QR Code aparecerá na sua página do navegador.
+Escaneie o QR Code usando o Expo Go no seu dispositivo móvel.
    
-### Explicações das seções:
+### Explicações das seções: ❗
 
 - **Índice**: Usei links internos para facilitar a navegação, especialmente quando o arquivo README for longo.
 - **Estrutura do Projeto**: A estrutura do projeto foi apresentada para que os desenvolvedores saibam como o código está organizado.
