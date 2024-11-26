@@ -1,91 +1,79 @@
-App de Estudos com Drawer Menu
-Este projeto é um aplicativo educacional desenvolvido para oferecer uma experiência interativa e prática aos estudantes e à comunidade escolar. Ele contém funcionalidades para o gerenciamento de boletins escolares, calendário de eventos, contatos importantes e muito mais.
+# **Aplicativo de sistema escolar, com navegação em drawer menu.**
 
-Índice
-Descrição do Projeto
-Funcionalidades
-Tecnologias Usadas
-Como Rodar o Projeto
-Estrutura do Projeto
-Contribuição
-Licença
-Descrição do Projeto
-O App de Estudos foi desenvolvido para tornar a vida escolar mais prática e organizada. Ele permite que os usuários acessem informações sobre o boletim escolar, eventos importantes da escola, um calendário de compromissos e muito mais. A navegação no app é feita através de um menu lateral (Drawer), que organiza as funcionalidades e facilita o acesso rápido às áreas principais.
+Este é um aplicativo educacional desenvolvido para ajudar alunos e comunidade escolar a gerenciar boletins, eventos e compromissos importantes. Ele oferece uma interface simples e intuitiva, com acesso rápido às principais funcionalidades, como boletins, calendário escolar, eventos e contatos.
 
-Funcionalidades
-Tela de Início: Apresenta uma saudação ao usuário e oferece acesso direto às principais seções do app (Boletim, Calendário, Eventos e Contatos).
-Tela de Boletim Escolar: Exibe as notas e o desempenho do aluno em diversas matérias.
-Tela de Calendário Escolar: Exibe as datas de eventos e reuniões escolares importantes.
-Tela de Eventos Escolares: Lista eventos como reuniões, apresentações e atividades pedagógicas da escola.
-Tela de Contatos: Mostra os contatos importantes da escola, como telefone, e-mail e redes sociais.
-Drawer Menu: Menu lateral que facilita a navegação entre as principais telas do aplicativo.
-Tecnologias Usadas
-React Native: Framework para o desenvolvimento do aplicativo.
-Expo: Ferramenta para facilitar o desenvolvimento com React Native.
-React Navigation: Biblioteca para navegação entre telas.
-Styled Components ou StyleSheet: Para criar estilos e personalizar a aparência do aplicativo.
-Como Rodar o Projeto
-Clonar o repositório:
+## Índice
 
-bash
-Copiar código
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-Instalar as dependências: Navegue até o diretório do projeto e instale as dependências usando npm ou yarn:
+- [Descrição do Projeto](#descrição-do-projeto)
+- [Funcionalidades](#funcionalidades)
+- [Tecnologias Usadas](#tecnologias-usadas)
+- [Como Rodar o Projeto](#como-rodar-o-projeto)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
 
-bash
-Copiar código
-cd nome-do-repositorio
-npm install
-ou
+---
 
-bash
-Copiar código
-yarn install
-Rodar o aplicativo: Para rodar o projeto em um emulador ou dispositivo físico, use o comando:
+## **Descrição do Projeto**
 
-bash
-Copiar código
-expo start
-Isso abrirá uma página no navegador com um QR code para você escanear com o app Expo Go e testar diretamente no seu dispositivo.
+O **App de Estudos** foi projetado para ajudar estudantes a se organizarem melhor no ambiente escolar. Ele permite que o usuário acesse rapidamente seu boletim escolar, consulte datas e compromissos no calendário, verifique eventos escolares e encontre informações de contato da escola. A navegação no app é feita de maneira simples e rápida, com um menu lateral que facilita o acesso às principais telas.
 
-Estrutura do Projeto
-A estrutura do projeto é organizada da seguinte maneira:
+---
 
-bash
-Copiar código
-/App
-    /assets
-        /images
-        /style
-    /pages
-        /boletim
-        /cale
-        /events
-        /contatc
-    /components
-        /DrawerMenu
-    App.js
-    package.json
-    README.md
-assets/: Contém as imagens e estilos utilizados no app.
-pages/: Contém as páginas principais do aplicativo (Boletim, Calendário, Eventos, Contatos).
-components/: Componentes reutilizáveis como o DrawerMenu.
-Contribuição
-Se você deseja contribuir com este projeto, siga os passos abaixo:
+## **Funcionalidades**
 
-Faça um fork deste repositório.
-Crie uma branch para a sua contribuição:
-bash
-Copiar código
-git checkout -b minha-contribuicao
-Faça as mudanças e adicione seus commits:
-bash
-Copiar código
-git commit -m "Adicionando melhorias na tela de Boletim"
-Envie suas alterações para o seu fork:
-bash
-Copiar código
-git push origin minha-contribuicao
-Abra um Pull Request com a descrição das alterações que você fez.
-Licença
-Este projeto está sob a Licença MIT. Veja o arquivo LICENSE para mais informações. 
+1. **Tela de Início**  
+   A tela inicial apresenta uma saudação ao usuário e fornece acesso às principais funcionalidades do aplicativo. O usuário pode navegar para o boletim, calendário, eventos ou contatos a partir desta tela.
+
+2. **Tela de Boletim Escolar**  
+   A tela do boletim exibe as informações acadêmicas do aluno, como o desempenho em cada matéria e as notas. O usuário pode visualizar o desempenho de forma geral e também acessar detalhes de cada disciplina.
+
+3. **Tela de Calendário Escolar**  
+   Na tela de calendário, o usuário visualiza as datas de eventos importantes, reuniões e outros compromissos escolares. O calendário oferece uma visão mensal para facilitar o planejamento.
+
+4. **Tela de Eventos Escolares**  
+   A tela de eventos escolares lista os próximos eventos, como apresentações, festas e palestras. O usuário pode acessar informações detalhadas sobre cada evento.
+
+5. **Tela de Contatos**  
+   Aqui, o usuário encontra informações de contato importantes, como número de telefone, e-mail, redes sociais e o endereço físico da instituição de ensino.
+
+6. **Tela do Drawer Menu**  
+   O Drawer Menu contém links para todas as principais telas do aplicativo. Ele permite que o usuário navegue entre as seções do aplicativo de forma fácil e rápida, acessando Boletim, Calendário, Eventos e Contatos.
+
+---
+
+## **Tecnologias Usadas**
+
+- **React Native**: Framework utilizado para o desenvolvimento do app.
+- **Expo**: Ferramenta para simplificar o processo de desenvolvimento em React Native.
+- **React Navigation**: Biblioteca para a navegação entre as telas do app.
+- **StyleSheet**: Para estilizar os componentes de forma eficiente.
+
+---
+## Como Instalar o Projeto
+
+### Passos para instalar e rodar o projeto:
+
+1. **Clonar o repositório**:
+   Primeiro, clone o repositório para a sua máquina local usando o seguinte comando:
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
+## **Como Rodar o Projeto**
+
+### Passos para rodar o projeto:
+
+1. **Clonar o repositório**:
+   ```bash
+   git clone https://github.com/dri031020/sistema-escolar.git
+
+   
+### Explicações das seções:
+
+- **Índice**: Usei links internos para facilitar a navegação, especialmente quando o arquivo README for longo.
+- **Estrutura do Projeto**: A estrutura do projeto foi apresentada para que os desenvolvedores saibam como o código está organizado.
+- **Contribuição**: Expliquei como contribuir para o projeto, incluindo as instruções básicas de como clonar, modificar e criar um Pull Request.
+- **Licença**: Eu incluí um modelo simples para indicar a licença do projeto.
+
+
+
